@@ -40,7 +40,12 @@ build/Release
 # Dependency directories
 node_modules/
 jspm_packages/
+<<<<<<< Updated upstream
 ./angular
+=======
+.angular/
+
+>>>>>>> Stashed changes
 
 # TypeScript v1 declaration files
 typings/
