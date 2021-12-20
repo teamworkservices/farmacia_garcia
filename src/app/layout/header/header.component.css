@@ -9,3 +9,7 @@
     opacity: .6 !important;
     font-weight: 500 !important;
   }
+  
+::ng-deep .items-menu{
+  width: 230px !important;
+}
