@@ -6,6 +6,7 @@ import { AfterViewInit, Component, OnInit } from '@angular/core';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent implements OnInit,AfterViewInit {
+ username:string="El usuario";
 
   constructor() { }
   ngAfterViewInit(): void {
@@ -14,5 +15,9 @@ export class HeaderComponent implements OnInit,AfterViewInit {
 
   ngOnInit(): void {
   }
+
+logOut(){
+  alert("cerrando sesión");
+}
 
 }
