@@ -5,6 +5,10 @@ import{MatGridListModule} from '@angular/material/grid-list';
 import{MatIconModule} from '@angular/material/icon';
 import{MatToolbarModule} from '@angular/material/toolbar';
 import{MatTableModule} from '@angular/material/table';
+import { MatDialogModule } from '@angular/material/dialog';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { FormsModule, ReactiveFormsModule  } from '@angular/forms';
+import { MatInputModule } from "@angular/material/input";
 
 @NgModule({
   declarations: [],
@@ -14,14 +18,22 @@ import{MatTableModule} from '@angular/material/table';
     MatIconModule,
     MatTabsModule,
     MatToolbarModule,
-    MatTableModule
+    MatTableModule,
+    MatDialogModule,
+    FormsModule,ReactiveFormsModule,
+    MatFormFieldModule,MatInputModule
+
   ],
   exports:[
     MatGridListModule,
 MatIconModule,
 MatTabsModule,
 MatToolbarModule,
-MatTableModule
+MatTableModule,
+MatDialogModule,
+FormsModule,ReactiveFormsModule,
+MatFormFieldModule,
+MatInputModule
   ]
 })
 export class SharedModule { }

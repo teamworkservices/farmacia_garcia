@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { LayoutfullComponent } from './layout/layoutfull/layoutfull.component';
+import { LoginComponent } from './layout/login/login.component';
 
 const routes: Routes = [
 
@@ -8,6 +9,12 @@ const routes: Routes = [
     path:'',
     redirectTo: '/login',
     pathMatch: 'full',
+   
+  },
+
+  {
+    path:'login',
+    component: LoginComponent
   },
   {
     path:'',
