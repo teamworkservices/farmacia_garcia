@@ -32,6 +32,7 @@ a{
       }
       table {
         width: 100%;
+      
       }
       .margin-l{
         margin-left: 10px !important;
@@ -57,3 +58,4 @@ a{
         background-color: #ddd !important;
         background: #ddd !important;
       }
+      

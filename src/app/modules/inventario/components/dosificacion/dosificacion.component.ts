@@ -1,4 +1,4 @@
-import { AfterViewInit,Component, OnInit } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { Dosificacion } from 'src/app/shared/models/dosificacion';
 import { MatTableDataSource } from '@angular/material/table';
 import {MatDialog, MatDialogConfig} from "@angular/material/dialog";
